@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiénes Somos?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f8ff; /* Fondo claro */
+            color: #333;
+        }
+        header {
+            background: rgba(0, 102, 204, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white; /* Fondo blanco para las secciones */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0066cc; /* Color azul para los títulos */
+        }
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button a {
+            padding: 10px 20px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .button a:hover {
+            background: #004a99;
+        }
+        .animation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .animation img {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¿Quiénes Somos?</h1>
+</header>
+
+<section>
+    <h2>INSTITUTO DE EDUCACIÓN MEDIA GUBERNAMENTAL FRANKLIN DE LANO ROOSEVELT</h2>
+    <p> nos dedicamos a la formación integral de nuestros estudiantes, combinando excelencia académica con valores éticos y sociales que los preparan para enfrentar los desafíos del mundo actual. Desde nuestra fundación en [año de fundación], hemos estado comprometidos en crear un ambiente inclusivo y seguro donde cada estudiante puede desarrollar su máximo potencial.</p>
+    <p>Contamos con un equipo de educadores altamente capacitados que trabajan en conjunto con las familias y la comunidad para brindar una educación de calidad. Fomentamos el pensamiento crítico, la creatividad y el respeto hacia los demás, formando ciudadanos responsables y comprometidos con su entorno.</p>
+    <p>Nuestra misión es educar con excelencia, inculcando valores y promoviendo el desarrollo integral de nuestros estudiantes para que se conviertan en líderes que transformen la sociedad.</p>
+    <p>Misión: Educar y formar a nuestros estudiantes para que sean personas íntegras, con valores sólidos y comprometidos con su entorno.</p>
+    <p>Visión: Ser una institución de referencia en educación, reconocida por su compromiso con la calidad académica, el desarrollo personal y la responsabilidad social.</p>
+</section>
+
+<div class="button">
+    <a href="https://www.facebook.com/inst.fdr?mibextid=JRoKGi" target="_blank">Visítanos en Facebook</a>
+</div>
+
+<div class="form-container">
+    <h3>Formulario de Contacto</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdLYRPD675iTAGNbJK2OoL687Ea3U0a4bKFA25A21G51xsSPg/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</div>
+
+<button class="button" onclick="goToMenu()">Regresar al Menú Principal</button>
+
+    <script>
+        function goToMenu() {
+            window.location.replace("file:///C:/Users/zuley/OneDrive/Escritorio/P%C3%A1ginaweb/P%C3%A1gina%20web.html");
+        }
+    </script>
+
+</body>
+</html>
